@@ -1,5 +1,5 @@
 import pytest
-
+import sys
 
 @pytest.fixture
 def capture_stdout(monkeypatch):
