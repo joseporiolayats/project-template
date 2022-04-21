@@ -1,5 +1,5 @@
 import pytest
-from my-project.code-file import LikeState, slap_many
+from my_project.code-file import LikeState, slap_many
 
 
 def test_empty_slap():
