@@ -1,5 +1,5 @@
 import pytest
-from my_project.code-file import LikeState, slap_many
+from my_project.code_file import LikeState, slap_many
 
 
 def test_empty_slap():
@@ -57,3 +57,4 @@ def test_print(capture_stdout):
 #     assert slap_many(LikeState.empty, 'ldd') is LikeState.empty
 #     assert slap_many(LikeState.empty, 'lldd') is LikeState.empty
 #     assert slap_many(LikeState.empty, 'ddl') is LikeState.liked
+
