@@ -21,3 +21,15 @@ warn_return_any = true
 warn_unreachable = true
 warn_unused_configs = true
 no_implicit_reexport = true
+
+[tool.poetry]
+name = "my-project"
+version = "0.1.0"
+description = "Project template"
+authors = ["Josep Oriol Ayats <oriol.ayats@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.4"
