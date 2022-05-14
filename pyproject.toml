@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=42.0", "wheel", "poetry-core>=1.0.0"]
+requires = ["setuptools>=61.2.0", "wheel", "poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 # build-backend = "setuptools.build_meta"
 
@@ -31,7 +31,7 @@ authors = ["Josep Oriol Ayats <oriol.ayats@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.7"
-setuptools = "^62.2.0"
+setuptools = "61.2.0"
 mkdocs = ">=1.3.0"
 mkdocs-material = ">=8.2.15"
 mkdocstrings = ">=0.18.1"

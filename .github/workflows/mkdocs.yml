@@ -12,4 +12,5 @@ jobs:
         with:
           python-version: 3.7
       - run: pip install mkdocs-material
+      - run: pip install mkdocstrings
       - run: mkdocs gh-deploy --force
