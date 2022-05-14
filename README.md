@@ -1,5 +1,7 @@
 # project-template
 ![Tests](https://github.com/joseporiolayats/project-template/actions/workflows/tests.yml/badge.svg)
+![Docs](https://github.com/joseporiolayats/project-template/actions/workflows/mkdocs.yml/badge.svg)
+
 This is a personal project template using **cookiecutter** scheme.
 
 ### CI/CD Tools used with pre-commit and Github Actions
