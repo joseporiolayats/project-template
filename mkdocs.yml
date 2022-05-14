@@ -22,7 +22,6 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
-  - markdown-include
   - mkdocstrings
 
 # Page tree
