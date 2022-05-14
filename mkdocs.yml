@@ -1,12 +1,12 @@
 # Project information
 site_name: Project Template
-site_url: https://joseporiolayats.github.io/#project_template
+site_url: https://joseporiolayats.github.io/#project-template
 site_description: Project template documentation
 site_author: Josep Oriol Ayats
 
 # Repository
-repo_url: https://github.com/joseporiolayats/project_template
-repo_name: joseporiolayats/project_template
+repo_url: https://github.com/joseporiolayats/project-template
+repo_name: joseporiolayats/project-template
 edit_uri: "" #disables edit button
 
 # Configuration
@@ -22,6 +22,7 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
+  - markdown-include
   - mkdocstrings
 
 # Page tree
