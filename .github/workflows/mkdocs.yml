@@ -13,4 +13,5 @@ jobs:
           python-version: 3.7
       - run: pip install mkdocs-material
       - run: pip install mkdocstrings
+      - run: pip install markdown-include
       - run: mkdocs gh-deploy --force
