@@ -103,3 +103,6 @@ site/
 
 # Airflow
 airflow/airflow.db
+
+# Jetbrains
+.idea/
