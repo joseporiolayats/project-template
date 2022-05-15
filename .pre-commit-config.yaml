@@ -6,8 +6,8 @@ repos:
       hooks:
         -   id: poetry-check
 #        -   id: poetry-lock
-#        -   id: poetry-export
-#            args: ["--dev", "-f", "requirements.txt", "-o", "requirements.txt"]
+        -   id: poetry-export
+            args: ["--dev", "-f", "requirements.txt", "-o", "requirements.txt"]
 
   -   repo: https://github.com/psf/black
       rev: 22.3.0
@@ -23,7 +23,13 @@ repos:
         -   id: mixed-line-ending
         -   id: check-added-large-files
             args: [ '--maxkb=1000' ]
-        -   id: end-of-file-fixer
+        - id: end-of-file-fixer
+          exclude: |
+            (?x)^(
+                tests/.*|
+                .*\.svg|
+                .*\.ipynb
+            )$
 #            Not using requirements-txt-fixer as is handled by poetry
 #        -   id: requirements-txt-fixer
         -   id: check-yaml
