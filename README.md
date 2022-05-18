@@ -1,7 +1,7 @@
 # project-template
 ![Tests](https://github.com/joseporiolayats/project-template/actions/workflows/tests.yml/badge.svg)
-![Docs](https://github.com/joseporiolayats/project-template/actions/workflows/mkdocs.yml/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/joseporiolayats/project-template/badge.svg?branch=gh-pages)](https://coveralls.io/github/joseporiolayats/project-template?branch=gh-pages)
+![Docs](https://github.com/joseporiolayats/project-template/actions/workflows/mkdocs.yml/badge.svg?branch=gh-pages)
+[![Coverage Status](https://coveralls.io/repos/github/joseporiolayats/project-template/badge.svg?branch=master)](https://coveralls.io/github/joseporiolayats/project-template?branch=master)
 
 This is a personal project template using **cookiecutter** scheme.
 
